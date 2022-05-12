@@ -1,5 +1,18 @@
+body {
+  background-color: rgba(0, 0, 0, 0.822);
+}
+h3 {
+  color: white;
+}
+
+span {
+  display: block;
+  justify-content: start;
+  position: fixed;
+}
+
 .container-fluid {
-  background-color: blueviolet;
+  background-color: rgb(97, 83, 224);
 }
 
 .btn {
@@ -20,21 +33,21 @@
 }
 
 .nav-item {
-  color: rgb(53, 252, 53);
-  border-bottom: 4px solid rgb(53, 252, 53);
-  border-top: 4px solid rgb(53, 252, 53);
+  color: white;
+  border-top: 4px solid rgb(97, 83, 224);
+  border-bottom: 4px solid rgb(97, 83, 224);
 
   transition: 0.5s;
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  animation: mymove 1s infinite;
+  animation: mymove 5s infinite;
   position: sticky;
 }
 @keyframes mymove {
   50% {
-    border-bottom: red;
-    border-top: rgb(255, 1, 1);
+    color: aliceblue;
+    background-color: aliceblue;
   }
 }
 
